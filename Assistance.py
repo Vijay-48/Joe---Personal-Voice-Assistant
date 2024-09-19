@@ -99,7 +99,7 @@ def add_event(event, date):
     
 # Function to get the latest news headlines
 def get_news():
-    api_key = "6036e7e108fb45e48b99b303d2c548bb"
+    api_key = "your Key"
     base_url = "https://newsapi.org/v2/top-headlines?"
     complete_url = f"{base_url}apiKey={api_key}"
     response = requests.get(complete_url)
@@ -110,7 +110,7 @@ def get_news():
         
 # Function to get the weather for a given location
 def get_weather(location):
-    api_key = "aecdc1b700e023678b340511654c14ee"
+    api_key = "Your Key"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = f"{base_url}appid={api_key}&q={location}"
     response = requests.get(complete_url)
