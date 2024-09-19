@@ -17,7 +17,7 @@ Joe is a customizable voice assistant built using Python. It can interact with u
 
 1. Clone the repository:
   - Copy code
-  - git clone https://github.com/yourusername/joe-voice-assistant.git
+  - git clone https://github.com/Vijay-48/joe-voice-assistant.git
 2. Install required dependencies:
   - Copy code
   - pip install -r requirements.txt
